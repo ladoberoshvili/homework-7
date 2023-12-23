@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+
+/* container */
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+/* header */
+
+header {
+    max-width: inherit;
+    width: inherit;
+    background: rgba(55, 45, 35, 1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 120;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav ul li a {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration: none;
+    color: rgba(184, 146, 120, 1);
+    margin-left: 48px;
+}
+
+header nav ul li:hover a {
+    color: rgba(237, 108, 48, 1);
+}
+
+
+/* section1 */
+
+
+.baner {
+    position: relative;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.baner img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.headline {
+    position: absolute;
+
+}
+
+.headline h2 {
+    color: #FFF;
+    text-shadow: 0px 6px 4px #372D23;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px
+}
+
+.headline button {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 12px 38px;
+    margin-top: 32px;
+    background-color: transparent;
+    border: 3px solid #FCC21B;
+    box-shadow: 0px 4px 4px 0px #372D23;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.headline button:hover {
+    background: #ED6C30;
+    box-shadow: 0;
+    border: 0;
+}
+
+
+/* section2 */
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 20px;
+}
+
+
+.card-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: rgba(55, 45, 35, 0.80);
+    backdrop-filter: blur(2px);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 32px 0;
+}
+
+
+/* article */
+
+article {
+
+    margin: 80px auto;
+    max-width: 1060px;
+    width: 88%;
+    text-align: center;
+}
+
+article h2 {
+    color: #372D23;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+article p {
+    color: #855C52;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 40px 0;
+}
+
+article button {
+    color: #FFF;
+    background: #ED6C30;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    border: 0;
+    padding: 12px 40px;
+    cursor: pointer;
+
+}
+
+article button:hover {
+    background-color: transparent;
+    border: 3px solid #FCC21B;
+    box-shadow: 0px 4px 4px 0px #372D23;
+    color: #372D23;
+   
+}
+
+
+/* footer */
+
+footer {
+    background: #372D23;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 32px 0;
+
+}
+
+.info {
+    display: inline-block;
+}
+
+.info h4 {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.info li {
+    list-style: none;
+}
+
+.info li a {
+    text-decoration: none;
+    color: #B89278;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer-contact-container ul li {
+    display: inline-block;
+}
+
+.footer-contact-container li {
+    list-style: none;
+    margin: 0 8px;
+}
+.footer-contact-container h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
